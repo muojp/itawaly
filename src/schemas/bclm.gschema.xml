@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="bclm">
+  <schema id="org.gnome.shell.extensions.bclm" path="/org/gnome/shell/extensions/bclm@muo.jp/">
+    <key name="automatic-control" type="b">
+      <default>false</default>
+      <summary>Automatic control</summary>
+      <description>Enables automatic battery charge level max control</description>
+    </key>
+  </schema>
+</schemalist>
+

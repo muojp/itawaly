@@ -1,0 +1,7 @@
+{
+  "name": "control-bclm",
+  "description": "Control BCLM",
+  "uuid": "bclm@muo.jp",
+  "version": 1,
+  "shell-version": ["42"]
+}
