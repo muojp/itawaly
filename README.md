@@ -11,7 +11,7 @@ By installing Itawaly, you can control your MacBook's battery charge level max (
    - In automatic mode, charge-level is controlled by 40-80% rule; charges up to around 80% then discharge until around 40% to reduce intermittent recharging.
    - When in automatic mode, you can still setup a single time full-charge manually which charges up to around 95%. This is designed to be used before you are getting ready for a longer trip.
 
-![manual 100%-charge](https://github.com/muojp/itawaly/blob/images/full-charge.png)
+Fig: When finished charging in automatic mode.
 
 ![charge-finished](https://github.com/muojp/itawaly/blob/images/finished-charging.png)
 
