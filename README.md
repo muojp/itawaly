@@ -2,7 +2,7 @@
 
 ## Introduction
 
-By installing Itawaly, you can control your MacBook's battery charge level max (BCLM) to maintain your battery in good condition longer.
+By installing Itawaly, you can control your MacBook's battery charge level max (BCLM) easily to maintain your battery in good condition for a longer period of time.
 
 ![menu](https://github.com/muojp/itawaly/blob/images/menu.png)
 
@@ -17,9 +17,11 @@ By installing Itawaly, you can control your MacBook's battery charge level max (
 
 ## Prerequisites
 
-`SmcDumpKey` command is installed w/ setuid flag.
-
-If not yet, run `./smc_dump_key.sh`.
+ - Ubuntu 22.04 w/ GNOME Desktop Environment
+ - `SmcDumpKey` command is needed to perform BCLM changes. This command needs to be installed w/ setuid flag.
+   - If not yet, run `./smc_dump_key.sh`.
+ - `upower` command is needed to fetch current battery level.
+   - If not installed, run `sudo apt install upower`.
 
 ## Install
 
