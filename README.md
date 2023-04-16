@@ -1,45 +1,44 @@
-# Itawaly - Control MacBooks' BCLM (Battery Charge Level Max) for Ubuntu / GNOME Desktop
+# Itawaly - Control MacBook's BCLM (Battery Charge Level Max) for Ubuntu / GNOME Desktop
 
 ## Introduction
 
-By installing Itawaly, you can control your MacBook's battery charge level max (BCLM) easily to maintain your battery in good condition for a longer period of time.
+By installing Itawaly, you can easily control your MacBook's battery charge level max (BCLM) easily to maintain your battery in good condition for a longer period of time.
 
 ![menu](https://github.com/muojp/itawaly/blob/images/menu.png)
 
  - You can manually set BCLM to 40% / 80% / 100%.
  - You can enable automatic BCLM management.
-   - In automatic mode, charge-level is controlled by 40-80% rule; charges up to around 80% then discharge until around 40% to reduce intermittent recharging.
-   - When in automatic mode, you can still setup a single time full-charge manually which charges up to around 95%. This is designed to be used before you are getting ready for a longer trip.
+   - In automatic mode, charge level is controlled by the 40-80% rule; charges up to around 80% then discharges until around 40% to reduce intermittent recharging.
+   - When in automatic mode, you can still set up a one-time full charge manually, which charges up to around 95%. This is designed to be used before you are getting ready for a longer trip.
 
-Fig: When finished charging in automatic mode.
-
+Fig: When the charging is completed while in automatic mode, the icon indicating the target charge level automatically switches (upper right arrow), and along with that, a notification pops up indicating that the change has occurred (lower left arrow).
 ![charge-finished](https://github.com/muojp/itawaly/blob/images/finished-charging.png)
 
 ## Prerequisites
 
- - Ubuntu 22.04 w/ GNOME Desktop Environment
- - `SmcDumpKey` command is needed to perform BCLM changes. This command needs to be installed w/ setuid flag.
+ - Ubuntu 22.04 w/ GNOME Desktop Environment.
+ - `SmcDumpKey` command is needed to perform BCLM changes. This command needs to be installed with the setuid flag.
    - If not yet, run `./smc_dump_key.sh`.
- - `upower` command is needed to fetch current battery level.
+ - `upower` command is needed to fetch the current battery level.
    - If not installed, run `sudo apt install upower`.
 
 ## Install
 
-1. Run install script to install GNOME Shell Extension.
+1. Run the install script to install the GNOME Shell Extension.
 
 ```
 ./install.sh
 ```
 
-2. Log out & Log in again.
+2. Log out and log in again.
 
-3. Enable installed extension.
+3. Enable the installed extension.
 
 ```
 gnome-extensions enable bclm@muo.jp
 ```
 
-4. Log out & Log in again.
+4. Log out and log in again.
 
 ## Remove older versions / Uninstall
 
@@ -47,10 +46,9 @@ gnome-extensions enable bclm@muo.jp
 gnome-extensions uninstall bclm@muo.jp
 ```
 
-
 ## Why Itawaly?
 
-To maintain our batteries condition better.
+To maintain our battery's condition better.
 
 Q. What is the recommended charge level for storing lithium-ion batteries, and why?
 
@@ -72,3 +70,4 @@ The software name "Itawaly" was inspired by the Japanese word "itawari," from wh
 
 Itawari is a Japanese concept that refers to the attitude of perceiving the emotional and physical pain or distress of others, valuing their well-being, and providing appropriate support and assistance. It is characterized by respecting the feelings and positions of others and responding with an encompassing gentleness. Practicing itawari enhances communication and empathy skills, leading to better relationships. Moreover, itawari is applicable not only to oneself but also to others and the environment, with its expression varying depending on the situation and culture. By embracing itawari, one can deepen bonds with others while also improving their own spirituality, leading to a more fulfilling life.
 
+By ChatGPT.
